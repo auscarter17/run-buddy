@@ -72,22 +72,20 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
-/* Hero Style End*/
+/* Hero Style End */
 
 .hero-form {
+  border: 3px solid #024e76;
   background-color: #fce138;
-  padding: 2-px;
+  padding: 20px;
   width: 500px;
   color: #024e76;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #024e76;
   position: absolute;
   bottom: 120px;
   right: 140px;
@@ -97,7 +95,6 @@ section {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
